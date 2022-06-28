@@ -19,7 +19,6 @@ export default function ProjectItem({ data }) {
     const diffDate = Math.abs(endDate - startDate);
     const result = diffDate / (1000 * 60 * 60 * 24);
 
-    console.log(result);
     return result;
   }
 
